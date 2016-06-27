@@ -8292,7 +8292,7 @@ img {
 .hero-title-image {
   width: 350px;
   height: 500px;
-  background-image: url(../images/alex-vivi-title.png);
+  background-image: url(../images/kenton-angel-title.png);
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -8349,7 +8349,7 @@ img {
 section.intro {
   text-align: center;
   background-color: white;
-  padding-bottom: 225px;
+  padding-bottom: 100px;
 }
 @media (max-width: 992px) {
   /* line 118, ../sass/partials/_layout.scss */
@@ -8379,20 +8379,20 @@ section.wedding-info {
   background-color: rgb(181, 87, 87);
   position: relative;
   z-index: 4;
-  padding-top: 300px;
-  padding-bottom: 225px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 @media (max-width: 1200px) {
   /* line 140, ../sass/partials/_layout.scss */
   section.wedding-info {
-    padding-top: 250px;
+    padding-top: 150px;
   }
 }
 @media (max-width: 1024px) {
   /* line 140, ../sass/partials/_layout.scss */
   section.wedding-info {
-    padding-top: 175px;
-    padding-bottom: 175px;
+    padding-top: 150px;
+    padding-bottom: 150px;
   }
 }
 @media (max-width: 768px) {
@@ -8466,7 +8466,7 @@ section.wedding-info .floral-bottom {
 /* line 206, ../sass/partials/_layout.scss */
 .wedding-info-title {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 /* line 210, ../sass/partials/_layout.scss */
 .wedding-info-title h2 {
@@ -8546,7 +8546,7 @@ section.instagram-feed {
 
 /* line 272, ../sass/partials/_layout.scss */
 .leaves-container {
-  padding-top: 200px;
+  padding-top: 100px;
   position: relative;
 }
 @media (max-width: 767px) {
@@ -8642,7 +8642,7 @@ section.instagram-feed {
 
 /* line 364, ../sass/partials/_layout.scss */
 .gallery-title-container {
-  padding-top: 200px;
+  padding-top: 100px;
 }
 @media (max-width: 767px) {
   /* line 364, ../sass/partials/_layout.scss */
@@ -8738,6 +8738,7 @@ section.about-us {
   -o-transition: background-position 0.5s ease-in-out;
   -webkit-transition: background-position 0.5s ease-in-out;
   transition: background-position 0.5s ease-in-out;
+  background-color: #ffffff;
 }
 @media (max-width: 1165px) {
   /* line 434, ../sass/partials/_layout.scss */
@@ -8746,6 +8747,7 @@ section.about-us {
     -o-background-size: 125%;
     -webkit-background-size: 125%;
     background-size: 125%;
+    background-color: #ffffff;
   }
 }
 @media (max-width: 992px) {
